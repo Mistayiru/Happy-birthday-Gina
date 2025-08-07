@@ -11,35 +11,7 @@
       color: #333;
       text-align: center;
       padding: 50px;
-      margin: 0;
-      overflow: hidden;
       position: relative;
-    }
-
-    .esquina {
-      width: 150px;
-      position: absolute;
-      z-index: 10;
-    }
-
-    .arriba-izquierda {
-      top: 10px;
-      left: 10px;
-    }
-
-    .arriba-derecha {
-      top: 10px;
-      right: 10px;
-    }
-
-    .abajo-izquierda {
-      bottom: 10px;
-      left: 10px;
-    }
-
-    .abajo-derecha {
-      bottom: 10px;
-      right: 10px;
     }
 
     h1 {
@@ -63,6 +35,32 @@
       transform: scale(1.1);
     }
 
+    .esquina {
+      width: 120px;
+      position: absolute;
+      border-radius: 10px;
+    }
+
+    .arriba-izquierda {
+      top: 10px;
+      left: 10px;
+    }
+
+    .arriba-derecha {
+      top: 10px;
+      right: 10px;
+    }
+
+    .abajo-izquierda {
+      bottom: 10px;
+      left: 10px;
+    }
+
+    .abajo-derecha {
+      bottom: 10px;
+      right: 10px;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
@@ -75,25 +73,24 @@
   </style>
 </head>
 <body>
+  <!-- Imágenes en las esquinas -->
+  <img src="Foto%201.png" class="esquina arriba-izquierda" alt="Foto 1">
+  <img src="Foto%202.png" class="esquina arriba-derecha" alt="Foto 2">
+  <img src="Foto%203.png" class="esquina abajo-izquierda" alt="Foto 3">
+  <img src="Foto%204.png" class="esquina abajo-derecha" alt="Foto 4">
 
-  <!-- 🎂 Imágenes en las esquinas -->
-  <img src="Foto 1.png" class="esquina arriba-izquierda" alt="Foto 1">
-  <img src="Foto 2.png" class="esquina arriba-derecha" alt="Foto 2">
-  <img src="Foto 3.png" class="esquina abajo-izquierda" alt="Foto 3">
-  <img src="Foto 4.png" class="esquina abajo-derecha" alt="Foto 4">
-
-  <!-- 🎈 Contenido principal -->
   <h1>🎉 ¡Feliz Cumpleaños! 🎂</h1>
-  <p>Sumare, así que por fin 18. Bueno, espero que te vaya muy bien mi estimada.</p>
-  <p>Hay cosas que quiero hacer y decirte, pero no es el momento, así que por ahora solo...</p>
-  <p>¡Feliz cumpleaños! Y espero que te hayas divertido 🎊</p>
-  <p>Y que te sigas divirtiendo, claro 😉</p>
-  <p>Bueno... se te quiere 💛</p>
+  <p>Sumare, así que por fin 18... bueno, espero que te vaya muy bien mi estimada.</p>
+  <p>Hay cosas que quiero hacer y decirte, pero no es el momento. Por ahora, solo feliz cumpleaños.</p>
+  <p>Espero que te hayas divertido y que te sigas divirtiendo, claro 😄</p>
+  <p>Bueno, se te quiere ❤️</p>
+
   <div class="heart">❤️</div>
+
   <p>Haz clic en la torta para ver tu regalo:</p>
   <a href="https://youtu.be/bzEGHdFSO7Q" target="_blank">
     <img src="torta de cumpleaños.png" alt="Torta de cumpleaños" class="cake-img">
   </a>
-
 </body>
 </html>
+
